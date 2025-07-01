@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Cursor (AMD Optimized)
+Exec=cursor-amd %U
+Terminal=false
+Type=Application
+Icon=cursor-ai
+StartupWMClass=Cursor
+Comment=AI-powered code editor (AMD Radeon optimized)
+MimeType=text/plain;inode/directory;
+Categories=Development;IDE;
+Actions=new-empty-window;
+StartupNotify=true
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=cursor-amd --new-window %U
+Icon=cursor-ai 
